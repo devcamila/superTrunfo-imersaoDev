@@ -3,7 +3,7 @@ Site construído durante a Imersão Dev da Alura <br>
 
 --- 
 <div align="center">
-<strong>Acesse o projeto aqui</strong> ➡️ https://mentalista-imersao-dev.vercel.app/
+<strong>Acesse o projeto aqui</strong> ➡️ https://super-trunfo-mocha.vercel.app/
 </div>
 
 ---
