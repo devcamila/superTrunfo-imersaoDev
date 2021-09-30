@@ -296,7 +296,7 @@ function exibirCartaJogador() {
   let divCartaJogador = document.getElementById("carta-jogador");
   divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`;
   let moldura =
-    '<img src="https://i.im.ge/2021/09/30/TpX09S.png" style=" width: inherit; height: inherit; position: absolute;">';
+    '<img src="https://i.im.ge/2021/10/01/Tp16n4.png" style=" width: inherit; height: inherit; position: absolute;">';
   let tagHTML = "<div id='opcoes' class='carta-status'>";
 
   let opcoesTexto = "";
@@ -321,7 +321,7 @@ function exibirCartaMaquina() {
   let divCartaMaquina = document.getElementById("carta-maquina");
   divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.imagem})`;
   let moldura =
-    '<img src="https://i.im.ge/2021/09/30/TpX09S.png"  style=" width: inherit; height: inherit; position: absolute;">';
+    '<img src="https://i.im.ge/2021/10/01/Tp16n4.png"  style=" width: inherit; height: inherit; position: absolute;">';
   let tagHTML = "<div id='opcoes' class='carta-status'>";
 
   let opcoesTexto = "";
