@@ -1,0 +1,234 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-image: url("https://i.im.ge/2021/09/30/TpXsIc.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  width: max-content;
+  background-color: rgba(40, 40, 40, 0.6);
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.page-title2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  color: #75784e;
+  padding-top: 15px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+/** Botões */
+#btnSortear,
+.button-jogar {
+  width: max-content;
+  padding: 0.8rem 1.5rem;
+  margin: 3rem auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 2rem;
+  color: #c15b53;
+  box-shadow: 0 0 1em #d5aa9f;
+  text-align: center;
+}
+
+#btnSortear:hover,
+.button-jogar:hover {
+  color: #ffffff;
+  background-color: #d5aa9f;
+  box-shadow: 0 0 1em #d5aa9f;
+}
+
+#novo-jogo {
+    width: max-content;
+    padding: 0.5rem 1rem;
+    margin: 3rem auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+#novo-jogo a {
+  text-decoration: none;
+  color: #75784E;
+}
+
+#novo-jogo:hover {
+  color: #282828;
+  background-color: #75784E;
+}
+
+#novo-jogo a:hover  {
+    color: #282828;
+}
+
+/** Cartas */
+h2 {
+  color: #282828;
+  font-size: 25px;
+  background-color: #d5aa9fb4;
+  padding: 20px;
+  text-align: center;
+  width: max-content;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 30px auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 300px 230px;
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+  background-position-y: 50px;
+  border-radius: 33px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+#carta-jogador  {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 2.5rem auto;
+  color: rgb(34, 33, 33);
+  z-index: 2;
+  text-align: left;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.resultado-final {
+  color: white;
+  width: max-content;
+  margin: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid #282828;
+  background-color: #282828;
+  border-radius: 5px;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carta-status p {
+  margin-bottom: 2rem;
+}
+
+/** Rodapé */
+footer {
+    position: relative;
+    top: 50px;
+  }
+
+  .footer-nav {
+      margin: 0
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    background-color: rgba(40, 40, 40, 0.6);
+    border-radius: 5px;
+    padding:0;
+  }
+  
+  li {
+    margin: 10px;
+    list-style: none;
+  }
+  
+  li a {
+    color: #EBDBB2;
+    font-family: "Press Start 2P", cursive;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .git:hover,
+  .link:hover,
+  .twitter:hover {
+    color: #D5AA9F;
+    border: none;
+    text-shadow: 0 0 1em #fff;
+  }
+  
